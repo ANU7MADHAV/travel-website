@@ -7,9 +7,7 @@ export function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="outline" className="bg-slate-200">
-          <FaBars />
-        </Button>
+        <FaBars />
       </SheetTrigger>
       <SheetContent side={"top"} className="flex justify-center text-2xl">
         <div className="mt-6 ">
