@@ -9,7 +9,7 @@ const SecondSection = () => {
   return (
     <div className="flex justify-center px-4 py-8 ">
       <div className="flex w-full flex-col items-center space-y-3">
-        <h3>CATEGORY</h3>
+        <h1>CATEGORY</h1>
         <h1 className="text-2xl font-bold">We Offer Best Services</h1>
         <div className="flex flex-col gap-2 px-4 py-3 md:flex-row md:gap-2 lg:gap-6 xl:gap-8 ">
           <Cards

@@ -13,9 +13,9 @@ const ThirdSection = () => {
         />
       </div>
       <div className="ml-3 py-4 md:ml-0 md:mt-[80px] lg:mt-[90px] xl:mt-[100px]">
-        <h3 className="py-2 text-xs font-semibold text-[#DF6951] md:my-2 md:text-sm  lg:my-3 lg:text-base xl:my-4 ">
+        <h1 className="py-2 text-xs font-semibold text-[#DF6951] md:my-2 md:text-sm  lg:my-3 lg:text-base xl:my-4 ">
           HONEYMOON SPECIALS
-        </h3>
+        </h1>
         <h1 className="py-2 text-2xl font-bold md:text-3xl lg:text-4xl  xl:text-5xl">
           Our Romantic Tropical Destinations
         </h1>
