@@ -10,7 +10,7 @@ const FirstSection = () => {
         <Image
           src={logo}
           alt="logo"
-          className="w-[60px] overflow-hidden rounded-full bg-blue-400 md:w-[80px] lg:w-[100px]"
+          className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
         />
         <section className="flex items-center gap-12 text-white">
           <section className="hidden md:block">
