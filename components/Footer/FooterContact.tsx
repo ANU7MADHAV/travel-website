@@ -13,10 +13,10 @@ const FooterContact = () => {
             <p>+91 9092030609</p>
           </Link>
           <Link href="tel:9791069197">
-            <p> +91 9791069197</p>
+            <p className="text-lg font-light">+91 9791069197</p>
           </Link>
           <Link href="tel:6383849226">
-            <p> +91 6383 849 226</p>
+            <p> +91 6383849226</p>
           </Link>
         </section>
 
