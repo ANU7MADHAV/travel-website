@@ -18,10 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>{children}</main>
-        <footer>
-          <Footer />
-        </footer>
+        <main>
+          {children}
+          {/* <footer>
+            <Footer />
+          </footer> */}
+        </main>
+
         <SpeedInsights />
       </body>
     </html>

@@ -15,22 +15,23 @@ const SecondSection = () => {
           <Cards
             image={tourguide}
             firstHeading="Guided Tours"
-            secondHeading="sunt qui repellat saepe quo velit aperiam id aliquam placeat."
+            secondHeading="We provide all tour packages with our experienced tour guide."
           />
           <Cards
             image={flight}
             firstHeading="Best Flights Options"
-            secondHeading="sunt qui repellat saepe quo velit aperiam id aliquam placeat."
+            secondHeading="
+            Select Economy, Business, or First class, with light travel option."
           />
           <Cards
             image={hands}
             firstHeading="Religious Tours"
-            secondHeading="sunt qui repellat saepe quo velit aperiam id aliquam placeat."
+            secondHeading="Worldwide religious tour packages."
           />
           <Cards
             image={medical}
-            firstHeading="Medical insurance"
-            secondHeading="sunt qui repellat saepe quo velit aperiam id aliquam placeat."
+            firstHeading="Visa and travel insurance"
+            secondHeading="We Provide all Country Visas & Travel Insurance"
           />
         </div>
       </div>

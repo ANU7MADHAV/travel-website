@@ -20,10 +20,10 @@ const ThirdSection = () => {
           Our Romantic Tropical Destinations
         </h1>
         <p className="py-3 md:py-4 md:text-xs lg:py-5 lg:text-sm xl:py-6 xl:text-base">
-          Et labore harum non nobis ipsum eum molestias mollitia et corporis
-          praesentium a laudantium internos. Non quis eius quo eligendi corrupti
-          et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
-          illum aut optio quibusdam!
+          The best honeymoon package or destination for you and your partner
+          depends on your specific preferences, interests, and budget. We can
+          assist you in customizing a honeymoon package tailored to your
+          desires.
         </p>
         <button className="rounded-xl bg-[#DF6951] px-2 py-1 text-white md:text-sm lg:text-base">
           View Packages

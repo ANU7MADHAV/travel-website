@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import FifthSection from "@/components/Homepage/FifthSection.tsx/FifthSection";
 import FirstSection from "@/components/Homepage/FirstSection";
 import FourthSection from "@/components/Homepage/FourthSection.tsx/FourthSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
+      <Footer />
     </main>
   );
 }

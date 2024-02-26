@@ -25,10 +25,10 @@ const FirstSection = () => {
         </section>
       </div>
       <div className="flex h-full  items-center justify-start">
-        <h1 className="ml-5 text-left text-lg text-white sm:text-xl md:ml-[80px] md:text-3xl lg:ml-[100px] lg:text-4xl xl:ml-[110px] xl:text-5xl">
+        <h1 className="ml-5 text-left text-xl text-white sm:text-xl md:ml-[80px] md:text-3xl lg:ml-[100px] lg:text-4xl xl:ml-[110px] xl:text-5xl">
           No matter where you’re going to,
           <br /> we’ll take you there{" "}
-          <span className="cursor-pointer rounded-md bg-[#DF6951] px-2 text-xs  sm:text-sm md:relative md:bottom-1 md:text-lg lg:text-xl xl:text-2xl">
+          <span className="cursor-pointer rounded-md bg-[#DF6951] px-2 text-sm  sm:text-sm md:relative md:bottom-1 md:text-lg lg:text-xl xl:text-2xl">
             Explore
           </span>
         </h1>

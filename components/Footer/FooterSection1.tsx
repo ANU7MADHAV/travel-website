@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const FooterSection1 = () => {
   return (
-    <div className="flex w-[200px]  flex-col items-center justify-center">
+    <div className="flex w-[200px] flex-col items-center  justify-center text-left lg:-mt-[170px]">
       <Image src={logo} alt="logo" className="mb-4 w-20" />
       <h3>Travel helps companies </h3>
       <h3>manage payments easily.</h3>

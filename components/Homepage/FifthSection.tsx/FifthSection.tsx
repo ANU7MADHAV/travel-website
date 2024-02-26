@@ -1,45 +1,33 @@
 import React from "react";
 import PlaceCards from "./PlaceCards";
-import swiss from "@/public/swiss.png";
-import brazil from "@/public/brazil.png";
-import egypt from "@/public/egypt.png";
+import dubai from "@/public/dubai.jpg";
+import singapore from "@/public/singapore.jpg";
+import kerala from "@/public/kerala.jpg";
 
 const FifthSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center ">
+    <div className="my-[30px] flex flex-col items-center justify-center ">
       <div className="flex flex-col items-center">
         <h1 className="font-bold text-[#DF6951]">TRENDY</h1>
         <h1 className="py-1 text-xl font-bold md:text-2xl  lg:text-3xl">
           Our Trending Tour Packages
         </h1>
       </div>
-      <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex flex-col gap-8  lg:flex-row">
         <PlaceCards
-          image={swiss}
-          days="8"
-          country="Europe"
-          description="Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos."
-          place="Switzerland"
-          price="1000"
-          pastPrice="1200"
+          image={dubai}
+          country="Dubai"
+          description="The City of Gold is known for its amazing architecture, breath-taking landmarks, the magnificent shopping festival and the warmth of its people. Dubai has just about everything you would need for a perfect holiday trip. The topography of Dubai is just fascinating as the city itself."
         />
         <PlaceCards
-          image={brazil}
-          days="8"
-          country="Brazil"
-          description="Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos."
-          place="Amazon"
-          price="1000"
-          pastPrice="1200"
+          image={singapore}
+          country="Singapore"
+          description="The exquisitely beautiful attractions like Sentosa Island, Gardens by the Bay, Universal Studios and Night Safari are the pride of Singapore tourism. Singapore is an ideal destination to plan a fun-filled holiday with family."
         />
         <PlaceCards
-          image={egypt}
-          days="8"
-          country="Giza"
-          description="Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos."
-          place="Amazon"
-          price="1000"
-          pastPrice="1200"
+          image={kerala}
+          country="Kerala"
+          description="Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters. Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world."
         />
       </div>
     </div>

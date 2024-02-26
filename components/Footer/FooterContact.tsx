@@ -2,18 +2,18 @@ import Link from "next/link";
 
 const FooterContact = () => {
   return (
-    <div className="mb-5 flex w-[200px] flex-col  items-center justify-center gap-y-3">
+    <div className="mb-5 flex w-[200px] flex-col items-center  justify-center gap-y-3 text-left">
       <section>
         <h1 className="text-xl font-bold">Contact Us</h1>
       </section>
-      <section className="space-y-1 text-center">
+      <section className="ml-[100px] space-y-1 text-left">
         <section>
           <h1 className="font-semibold">India : </h1>
           <Link href="tel:9791069197">
             <p>+91 9092030609</p>
           </Link>
           <Link href="tel:9791069197">
-            <p className="text-lg font-light">+91 9791069197</p>
+            <p>+91 9791069197</p>
           </Link>
           <Link href="tel:6383849226">
             <p> +91 6383849226</p>
