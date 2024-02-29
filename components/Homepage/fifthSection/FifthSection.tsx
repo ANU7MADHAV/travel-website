@@ -1,8 +1,8 @@
 import React from "react";
-import PlaceCards from "./PlaceCards";
 import dubai from "@/public/dubai.jpg";
 import singapore from "@/public/singapore.jpg";
 import kerala from "@/public/kerala.jpg";
+import PlaceCards from "./PlaceCards";
 
 const FifthSection = () => {
   return (
@@ -13,7 +13,7 @@ const FifthSection = () => {
           Our Trending Tour Packages
         </h1>
       </div>
-      <div className="flex flex-col gap-8  lg:flex-row">
+      <div className="grid lg:grid-cols-3 lg:gap-3 ">
         <PlaceCards
           image={dubai}
           country="Dubai"

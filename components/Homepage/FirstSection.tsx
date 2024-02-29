@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Navbar from "../Navbar.tsx/Navbar";
 import logo from "@/public/logo.png";
-import { SheetDemo } from "../Navbar.tsx/MobileNavbar";
+import { SheetDemo } from "../navbar/MobileNavbar";
+import Navbar from "../navbar/Navbar";
 
 const FirstSection = () => {
   return (

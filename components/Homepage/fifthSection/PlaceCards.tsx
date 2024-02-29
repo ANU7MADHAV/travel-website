@@ -10,7 +10,7 @@ type Props = {
 
 const PlaceCards = ({ image, country, description }: Props) => {
   return (
-    <div className="md mt-8 w-[300px] space-y-1 text-left md:w-[800px] lg:w-[400px]">
+    <div className="md mt-8 w-[300px] space-y-1 text-left lg:w-[300px] xl:w-[400px]">
       <Image
         src={image}
         alt="swiss"

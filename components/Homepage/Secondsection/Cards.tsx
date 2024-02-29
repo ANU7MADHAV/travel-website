@@ -11,7 +11,7 @@ type Props = {
 const Cards = ({ firstHeading, secondHeading, image }: Props) => {
   return (
     <div>
-      <div className="flex h-auto flex-col items-center space-y-3 p-3 text-center shadow  lg:w-[200px] xl:w-[250px]">
+      <div className="flex h-auto flex-col items-center space-y-3 p-3 text-center shadow md:h-[200px] md:w-[150px] lg:h-[250px] lg:w-[200px] xl:w-[250px]">
         <Image
           src={image}
           alt="tourguide"
