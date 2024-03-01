@@ -1,28 +1,25 @@
 import Image from "next/image";
-import React from "react";
-import dubai from "@/public/exploredubai.jpg";
-import { CiStar } from "react-icons/ci";
 
-const ExploreCards = () => {
+type Props = {
+  image: any;
+  place: string;
+  days?: string;
+  price: string;
+};
+
+const ExploreCards = ({ place, image, days, price }: Props) => {
   return (
-    <div className="flex  justify-center">
-      <div className="w-[400px] shadow">
+    <div className="my-4 justify-center">
+      <div className="grid shadow  lg:w-[300px] xl:w-[400px]">
         <Image
-          src={dubai}
+          src={image}
           alt="dubai"
-          className="overflow-hidden rounded-md p-2"
+          className="h-[200px] overflow-hidden rounded-xl bg-contain p-2"
         />
-        <section className="p-2">
-          <h1>Dubai</h1>
-          <p>
-            Qui tempore voluptate qui quia commodi rem praesentium alias et.
-          </p>
-          <p className="flex">
-            price{" "}
-            <span className="flex items-center">
-              <CiStar className="text-[#DF6951]" /> 5
-            </span>
-          </p>
+        <section className="p-2 px-4">
+          <h1 className="text-xl font-semibold">{place}</h1>
+          <h1 className="text-lg font-medium">{days}</h1>
+          <p className="text-base text-gray-600">{price}</p>
         </section>
       </div>
     </div>
