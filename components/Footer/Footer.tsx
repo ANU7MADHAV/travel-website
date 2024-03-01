@@ -8,6 +8,7 @@ const Footer = () => {
       <FooterSection1 />
       <Desitination />
       <FooterContact />
+      <h1>changed</h1>
     </div>
   );
 };
