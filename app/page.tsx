@@ -16,7 +16,6 @@ export default function Home() {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
-      <Footer />
     </main>
   );
 }
