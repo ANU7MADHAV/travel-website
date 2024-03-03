@@ -1,4 +1,3 @@
-import Footer from "@/components/footer/Footer";
 import FirstSection from "@/components/Homepage/FirstSection";
 import FifthSection from "@/components/Homepage/fifthSection/FifthSection";
 import FourthSection from "@/components/Homepage/fourthSection/FourthSection";
