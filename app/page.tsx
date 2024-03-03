@@ -1,9 +1,9 @@
 import Footer from "@/components/footer/Footer";
-import FirstSection from "@/components/homepage/FirstSection";
-import FifthSection from "@/components/homepage/fifthSection/FifthSection";
-import FourthSection from "@/components/homepage/fourthSection/FourthSection";
-import SecondSection from "@/components/homepage/secondsection/SecondSection";
-import ThirdSection from "@/components/homepage/thirdSection/ThirdSection";
+import FirstSection from "@/components/Homepage/FirstSection";
+import FifthSection from "@/components/Homepage/fifthSection/FifthSection";
+import FourthSection from "@/components/Homepage/fourthSection/FourthSection";
+import SecondSection from "@/components/Homepage/Secondsection/SecondSection";
+import ThirdSection from "@/components/Homepage/ThirdSection/ThirdSection";
 
 export default function Home() {
   return (
