@@ -26,7 +26,6 @@ const ExploreSecond = () => {
         <ExploreCards
           image={burj}
           place="Burj Khalifa & Desert Safari"
-          days="2 Nights 3 Days"
           price="69 USD"
         />
       </div>
