@@ -35,7 +35,6 @@ const SecondSection = () => {
           />
         </div>
       </div>
-      <h1>changed</h1>
     </div>
   );
 };
