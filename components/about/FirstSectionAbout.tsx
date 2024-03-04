@@ -2,6 +2,7 @@ import Image from "next/image";
 import { SheetDemo } from "../navbar/MobileNavbar";
 import Navbar from "../navbar/Navbar";
 import logo from "@/public/logo.png";
+import Link from "next/link";
 
 const FirstSectionAbout = () => {
   return (
@@ -16,9 +17,12 @@ const FirstSectionAbout = () => {
           <section className="hidden md:block">
             <Navbar />
           </section>
-          <button className="rounded-xl bg-[#DF6951] px-2 py-1 text-sm  md:text-base">
-            Contact Us
-          </button>
+          <Link href="/contact">
+            <button className="rounded-xl bg-[#DF6951] px-2 py-1 text-sm  md:text-base">
+              Contact Us
+            </button>
+          </Link>
+
           <section className="block md:hidden">
             <SheetDemo />
           </section>

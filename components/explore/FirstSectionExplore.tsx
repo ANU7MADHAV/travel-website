@@ -15,8 +15,8 @@ const FirstSectionExplore = () => {
         </p>
       </section>
 
-      <div className="flex w-full justify-end ">
-        <Image src={travler} alt="travler" className="w-[700px] bg-center" />
+      <div className="hidden w-full  justify-end sm:flex ">
+        <Image src={travler} alt="travler" className="w-[700px] bg-center " />
       </div>
     </div>
   );
