@@ -15,11 +15,14 @@ const page = () => {
   return (
     <div>
       <div className="flex items-center justify-between bg-gray-100 p-4 px-4 text-black">
-        <Image
-          src={logo}
-          alt="logo"
-          className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
+          />
+        </Link>
+
         <section className="flex items-center gap-12 text-black">
           <section className="hidden md:block">
             <Navbar />

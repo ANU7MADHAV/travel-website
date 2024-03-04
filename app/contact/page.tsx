@@ -23,11 +23,13 @@ export default function Form() {
   return (
     <div>
       <div className="flex items-center justify-between px-4">
-        <Image
-          src={logo}
-          alt="logo"
-          className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
+          />
+        </Link>
         <section className="flex items-center gap-12 text-black">
           <section className="hidden md:block">
             <Navbar />

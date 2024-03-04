@@ -8,11 +8,13 @@ const FirstSection = () => {
   return (
     <div className="h-screen w-auto bg-[url('/bgImage.png')] bg-cover bg-center py-2 md:p-4">
       <div className="flex items-center justify-between px-4">
-        <Image
-          src={logo}
-          alt="logo"
-          className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
-        />
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="logo"
+            className="w-[60px] overflow-hidden rounded-full bg-white md:w-[80px] lg:w-[100px]"
+          />
+        </Link>
         <section className="flex items-center gap-12 text-white">
           <section className="hidden md:block">
             <Navbar />
