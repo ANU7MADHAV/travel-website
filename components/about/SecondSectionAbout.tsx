@@ -4,8 +4,8 @@ import water from "@/public/water.png";
 
 const SecondSectionAbout = () => {
   return (
-    <div className="my-8 grid grid-cols-2 items-center justify-center gap-8 pl-[200px] ">
-      <section className="text-left ">
+    <div className="my-8 flex flex-col items-center justify-center gap-8 px-4 md:grid md:grid-cols-2 md:pl-[200px] ">
+      <section className="flex flex-col text-left ">
         <h1 className="text-left text-3xl font-semibold text-[#DF6951]">
           We Provide You Best
         </h1>

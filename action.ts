@@ -14,8 +14,8 @@ export const sendEmail = async (prevState: State, formData: FormData) => {
     const resend = new Resend(process.env.API_KEY);
     await resend.emails.send({
       from: "onboarding@resend.dev",
-      to: "anumadhavan888@gmail.com",
-      subject: "Form Submission",
+      to: "firstguidetours@gmail.com",
+      subject: "Submitted Form by Client",
       react: EmailTemplate({ name, email, message, phone }),
     });
     return {
