@@ -29,7 +29,7 @@ const ThirdSection = () => {
           View Packages
         </button>
       </div>
-      <h1>changed</h1>
+   
     </div>
   );
 };
