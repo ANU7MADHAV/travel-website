@@ -36,7 +36,7 @@ const PlaceCards = ({ image, country, description }: Props) => {
           Explore Now
         </button>
       </section>
-      <h1>changed</h1>
+  
     </div>
   );
 };
